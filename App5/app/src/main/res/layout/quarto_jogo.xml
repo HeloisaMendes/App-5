@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Randomizador"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginBottom="30sp"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite palavras/valores:"
+        android:textSize="20dp"
+        android:layout_below="@+id/titulo"
+        />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnOk"
+        android:layout_above="@id/btnvoltar"
+        />
+
+    <ImageView
+        android:id="@+id/btnadicionar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/btnadicionar"
+        android:layout_below="@id/titulo"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/btnOk"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/btnok"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editText"
+        />
+
+
+    <TextView
+        android:id="@+id/valorSorteado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/btnvoltar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/btnvoltar"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha do aplicativo:"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+
+    <ImageView
+        android:id="@+id/circulo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/circulo"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        />
+
+    <ImageView
+        android:id="@+id/escolheuTesoura"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tesoura"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        />
+
+
+    <TextView
+        android:id="@+id/resutado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado aqui"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/circulo"
+        android:layout_marginTop="60dp"
+        />
+
+    <ImageView
+        android:id="@+id/pedra"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pedra"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/resutado"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/papel"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/papel"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/resutado"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="135dp"
+        />
+
+    <ImageView
+        android:id="@+id/tesoura"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tesoura"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/resutado"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/btnvoltar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/btnvoltar"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

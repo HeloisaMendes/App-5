@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Digite uma palavra ou frase:"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextFrase"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/textViewDeslocamento"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Deslocamento para a direira (0 - 25)"
+        android:textSize="20dp"
+        android:layout_below="@id/editTextFrase"
+        android:layout_marginTop="35dp"
+        />
+
+    <EditText
+        android:id="@+id/valorDeslocamento"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/textViewDeslocamento"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        />
+    <ImageView
+        android:id="@+id/btnCodificar"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:src="@drawable/retanguloazul"
+        android:layout_below="@id/valorDeslocamento"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewCodificar"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:text="Codificar"
+        android:layout_below="@id/valorDeslocamento"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="65dp"
+
+        />
+    <ImageView
+        android:id="@+id/btnDescodificar"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:src="@drawable/retanguloazul"
+        android:layout_below="@id/valorDeslocamento"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        />
+    <TextView
+        android:id="@+id/textViewDescodificar"
+        android:layout_width="115dp"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:text="Descodificar"
+        android:layout_below="@id/valorDeslocamento"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="65dp"
+        />
+
+    <ImageView
+        android:id="@+id/btnvoltar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/btnvoltar"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+
+</RelativeLayout>

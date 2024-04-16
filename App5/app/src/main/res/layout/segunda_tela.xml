@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/primeiroBotao"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/primeirobotao"
+        android:layout_marginTop="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        />
+    <ImageView
+        android:id="@+id/segundoBotao"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/segundobotao"
+        android:layout_marginTop="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        />
+    <ImageView
+        android:id="@+id/terceiroBotao"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/terceirobotao"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/primeiroBotao"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        />
+    <ImageView
+        android:id="@+id/quartoBotao"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/quartobotao"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/segundoBotao"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        />
+
+
+</RelativeLayout>

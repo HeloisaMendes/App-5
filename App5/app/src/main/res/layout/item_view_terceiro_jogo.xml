@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/sequenciaUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Sequência que o usuário digitou"
+        android:layout_marginTop="2dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/primeiroDigito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Primeiro dígito"
+        android:layout_marginTop="2dp"
+        android:textStyle="normal"
+        android:layout_below="@id/sequenciaUsuario"
+        />
+    <TextView
+        android:id="@+id/segundoDigito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Segundo dígito"
+        android:layout_marginTop="2dp"
+        android:textStyle="normal"
+        android:layout_below="@id/primeiroDigito"
+        />
+    <TextView
+        android:id="@+id/terceiroDigito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Terceiro dígito"
+        android:layout_marginTop="2dp"
+        android:textStyle="normal"
+        android:layout_below="@id/segundoDigito"
+        />
+    <TextView
+        android:id="@+id/quartoDigito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Quarto dígito"
+        android:layout_marginTop="2dp"
+        android:textStyle="normal"
+        android:layout_below="@id/terceiroDigito"
+        />
+
+</RelativeLayout>
